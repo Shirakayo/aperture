@@ -819,6 +819,10 @@ li {
   .subfooter__copy-social svg:not(:last-child) {
     margin-right: 20px;
   }
+
+  .subfooter__form {
+    width: 60%;
+  }
 }
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
