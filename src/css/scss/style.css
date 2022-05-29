@@ -525,7 +525,7 @@ li {
 
 .subfooter__form {
   position: relative;
-  width: 40%;
+  width: 60%;
 }
 
 .subfooter__form-item {
@@ -596,6 +596,11 @@ li {
 }
 
 /* Large desktops and laptops */
+@media (min-width: 1200px) {
+  .subfooter__form {
+    width: 40%;
+  }
+}
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
   .about__info {
