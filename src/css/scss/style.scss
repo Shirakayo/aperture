@@ -596,6 +596,11 @@ li {
 .subfooter__copy-social svg:not(:last-child) {
   margin-right: 20px;
 }
+
+.subfooter__copy-social svg {
+  cursor: pointer;
+}
+
 @keyframes navLinksFade {
   from {
     opacity: 0;

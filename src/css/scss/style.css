@@ -569,6 +569,10 @@ li {
   margin-right: 20px;
 }
 
+.subfooter__copy-social svg {
+  cursor: pointer;
+}
+
 @keyframes navLinksFade {
   from {
     opacity: 0;
@@ -810,6 +814,10 @@ li {
     padding: 0 5px 10px 5px;
     flex-direction: column;
     gap: 10px;
+  }
+
+  .subfooter__copy-social svg:not(:last-child) {
+    margin-right: 20px;
   }
 }
 /* Landscape phones and smaller */
