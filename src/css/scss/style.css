@@ -112,7 +112,7 @@ li {
 .about {
   position: relative;
   padding-bottom: 41px;
-  background: url("/src/img/about/background.jpg") fixed center center no-repeat;
+  background: url(/src/img/about/background.jpg) fixed center center no-repeat;
   background-size: cover;
   margin-bottom: 113px;
 }
